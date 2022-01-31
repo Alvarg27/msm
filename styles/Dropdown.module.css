@@ -1,0 +1,20 @@
+.dropdown {
+  background: rgb(30, 41, 59, 0.8);
+  width: 100%;
+  z-index: 99;
+  position: absolute;
+  box-shadow: 0 0 20px rgb(0, 0, 0, 0.3);
+  backdrop-filter: blur(8px);
+}
+
+.dropdown ul {
+  list-style: none;
+  text-align: center;
+  text-align: center;
+}
+.dropdown ul li {
+  margin: 50px 0;
+}
+.dropdown ul li a {
+  color: white;
+}

@@ -4,7 +4,7 @@ import React from "react";
 
 export default function Contact() {
   return (
-    <div className={styles.contact}>
+    <div id="contact" className={styles.contact}>
       <div className={styles.container}>
         <img className={styles.chipImg} src="/contactImg.webp" />
         <img className={styles.logo} src="/logo_msm_degradado.webp" />

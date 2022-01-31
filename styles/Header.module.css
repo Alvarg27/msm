@@ -1,44 +1,48 @@
 .header {
+  z-index: 100;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+.header .container {
+  position: relative;
   display: flex;
   align-content: center;
   justify-content: space-between;
-  width: 100%;
   height: 90px;
   padding: 0 10%;
-  position: sticky;
-  top: 0;
+
   background: hsl(217, 30%, 14%, 0.5);
-  z-index: 100;
+
   box-shadow: 0 0 20px rgb(0, 0, 0, 0.3);
   backdrop-filter: blur(8px);
 }
-
-.header img {
+.header .container img {
   height: 40px;
   margin: auto 0;
 }
 
-.header ul {
+.header .container ul {
   margin: auto 0;
   display: flex;
   list-style: none;
 }
 
-.header ul a {
+.header .container ul a {
   padding: 0 20px;
   color: white;
 }
-.header ul a:hover {
+.header .container ul a:hover {
   color: #89c544;
 }
-.header .icon {
+.header .container .icon {
   display: none;
 }
 @media all and (max-width: 768px) {
-  .header ul {
+  .header .container ul {
     display: none;
   }
-  .header .icon {
+  .header .container .icon {
     display: block;
     margin: auto 0;
     color: white;
