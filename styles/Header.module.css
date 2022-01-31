@@ -38,6 +38,10 @@
 .header .container .icon {
   display: none;
 }
+
+.header .container .icon:hover {
+  color: #89c544;
+}
 @media all and (max-width: 768px) {
   .header .container ul {
     display: none;
