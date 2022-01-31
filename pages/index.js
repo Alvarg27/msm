@@ -24,7 +24,7 @@ export default function Home() {
         <meta name="description" content="Circuitos y sistemas integtrados" />
         <link rel="icon" href="/msm_logo_circulo_degrado.webp" />
       </Head>
-      <Header />
+      <Header offsetY={offsetY} />
       <Hero />
       <About />
       <Services />
