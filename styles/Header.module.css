@@ -31,3 +31,17 @@
 .header ul a:hover {
   color: #89c544;
 }
+.header .icon {
+  display: none;
+}
+@media all and (max-width: 768px) {
+  .header ul {
+    display: none;
+  }
+  .header .icon {
+    display: block;
+    margin: auto 0;
+    color: white;
+    font-size: 40px;
+  }
+}
