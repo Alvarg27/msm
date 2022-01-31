@@ -4,6 +4,7 @@
   align-content: center;
   height: 600px;
   flex-direction: column;
+  overflow-x: hidden;
 }
 .contact .container {
   width: 700px;
