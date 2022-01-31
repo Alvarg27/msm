@@ -12,7 +12,9 @@ export default function Hero() {
               semiconductores
             </p>
             <h1>Diseño y fabricación de circuitos y sistemas integrados.</h1>
-            <button className="primaryBtn">Saber más</button>
+            <button id="about" className="primaryBtn">
+              Saber más
+            </button>
           </div>
         </div>
         <div className={styles.rightColumn}>

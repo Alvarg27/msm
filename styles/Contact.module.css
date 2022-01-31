@@ -42,6 +42,6 @@
 }
 @media all and (max-width: 768px) {
   .contact .container {
-    transform: translatex(-40%);
+    transform: translatex(-300px);
   }
 }
