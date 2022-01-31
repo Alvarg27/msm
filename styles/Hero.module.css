@@ -1,5 +1,7 @@
 .hero {
   height: 600px;
+  padding-top: 50px;
+  overflow-x: hidden;
 }
 .hero .container {
   display: flex;
@@ -22,17 +24,36 @@
 
 .hero .container .leftColumn .textContainer h1 {
   font-size: 50px;
+  z-index: 99;
+  position: relative;
 }
 .hero .container .rightColumn {
   width: 50%;
   display: flex;
   justify-content: center;
   align-content: center;
-  padding-top: 300px;
 }
 
 .hero .container .rightColumn img {
   width: 80%;
   margin: auto;
-  transform: translateY(-100px);
+  transform: translateY(50px);
+}
+
+@media all and (max-width: 768px) {
+  .hero {
+    height: 500px;
+  }
+  .hero .container .leftColumn .textContainer h1 {
+    font-size: 35px;
+  }
+  .hero .container .leftColumn {
+    width: 80%;
+  }
+  .hero .container .rightColumn {
+    width: 30%;
+  }
+  .hero .container .rightColumn img {
+    width: 250%;
+  }
 }

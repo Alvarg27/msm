@@ -6,8 +6,16 @@ import Header from "../components/header";
 import Hero from "../components/Hero";
 import Services from "../components/Services";
 import styles from "../styles/Home.module.css";
+import { useState, useEffect } from "react";
 
 export default function Home() {
+  useState;
+  const [offsetY, setOffsetY] = useState(0);
+  const handleScroll = () => setOffsetY(window.pageYOffset);
+  useEffect(() => {
+    window.addEventListener("scroll", handleScroll);
+  });
+
   return (
     <div className={styles.home}>
       <Head>
@@ -19,7 +27,7 @@ export default function Home() {
       <Hero />
       <About />
       <Services />
-      <Contact />
+      <Contact offsetY={offsetY} />
     </div>
   );
 }

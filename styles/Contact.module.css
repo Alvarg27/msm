@@ -20,9 +20,13 @@
   position: absolute;
   color: white;
   top: 100px;
-  right: 100px;
+  right: 95px;
+  text-align: center;
 }
 
+.contact .contactText h2 {
+  color: #2aabe0;
+}
 .contact .copyright {
   margin: 10px auto;
   color: white;
@@ -34,4 +38,9 @@
   width: 60px;
   left: 115px;
   top: 125px;
+}
+@media all and (max-width: 768px) {
+  .contact .container {
+    transform: translatex(-40%);
+  }
 }
