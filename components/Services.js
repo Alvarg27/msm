@@ -29,7 +29,7 @@ export default function Services() {
           </div>
         </div>
         <div className={styles.rightColumn}>
-          <img src="/servicesImg.webp" />
+          <img src="/serviceImg.webp" />
         </div>
       </div>
     </div>

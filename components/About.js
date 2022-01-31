@@ -4,6 +4,15 @@ import styles from "../styles/About.module.css";
 export default function About() {
   return (
     <div className={styles.about}>
+      <h1 className="title">Acerca de</h1>
+      <div className={styles.textContainer}>
+        <p>
+          Consolidar procesos de fabricación de circuitos integrados que de
+          soluciones de alto valor al sector académico e industrial a nivel
+          nacional con base en una plataforma tecnológica con procesos flexibles
+          y enfocados al cliente.
+        </p>
+      </div>
       <div className={styles.container}>
         <div className={styles.card}>
           <h2>Misión</h2>
@@ -26,14 +35,6 @@ export default function About() {
             de talento.
           </p>
         </div>
-      </div>
-      <div className={styles.textContainer}>
-        <p>
-          Consolidar procesos de fabricación de circuitos integrados que de
-          soluciones de alto valor al sector académico e industrial a nivel
-          nacional con base en una plataforma tecnológica con procesos flexibles
-          y enfocados al cliente.
-        </p>
       </div>
     </div>
   );

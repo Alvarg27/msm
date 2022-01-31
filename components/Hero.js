@@ -19,7 +19,6 @@ export default function Hero() {
           <img src="/heroImg.webp" />
         </div>
       </div>
-      <small>© Copyright 2022, MSM</small>
     </div>
   );
 }
