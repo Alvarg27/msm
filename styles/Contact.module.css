@@ -10,7 +10,7 @@
   position: relative;
   margin: auto;
 }
-.contact img {
+.contact .chipImg {
   width: 100%;
   margin: auto;
   border-radius: 50px;
@@ -27,4 +27,11 @@
   margin: 10px auto;
   color: white;
   font-size: 12px;
+}
+
+.contact .logo {
+  position: absolute;
+  width: 60px;
+  left: 115px;
+  top: 125px;
 }
