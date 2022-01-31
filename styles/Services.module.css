@@ -1,0 +1,31 @@
+.services {
+  height: 600px;
+}
+.services .container {
+  display: flex;
+}
+
+.services .container .leftColumn {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+.services .container .leftColumn .textContainer {
+  margin: auto;
+  width: 70%;
+  color: white;
+}
+
+.services .container .rightColumn {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  height: 600px;
+}
+
+.services .container .rightColumn img {
+  width: 60%;
+  margin: auto;
+}

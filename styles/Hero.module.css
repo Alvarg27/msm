@@ -1,0 +1,38 @@
+.hero {
+  height: 800px;
+}
+.hero .container {
+  display: flex;
+}
+
+.hero .container .leftColumn {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+.hero .container .leftColumn .textContainer {
+  margin: auto;
+  width: 70%;
+  color: white;
+  transform: translateY(-60px);
+}
+.hero .container .leftColumn .textContainer p {
+  color: #2aabe0;
+}
+
+.hero .container .leftColumn .textContainer h1 {
+  font-size: 50px;
+}
+.hero .container .rightColumn {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  height: 800px;
+}
+
+.hero .container .rightColumn img {
+  width: 80%;
+  margin: auto;
+}
