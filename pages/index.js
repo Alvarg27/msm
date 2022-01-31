@@ -2,7 +2,7 @@ import Head from "next/head";
 import Image from "next/image";
 import About from "../components/About";
 import Contact from "../components/Contact";
-import Header from "../components/header";
+import Header from "../components/Header";
 import Hero from "../components/Hero";
 import Services from "../components/Services";
 import styles from "../styles/Home.module.css";
@@ -16,6 +16,7 @@ export default function Home() {
     window.addEventListener("scroll", handleScroll);
   });
 
+  console.log(offsetY);
   return (
     <div className={styles.home}>
       <Head>
