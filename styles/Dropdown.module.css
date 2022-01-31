@@ -17,4 +17,8 @@
 }
 .dropdown ul li a {
   color: white;
+  padding: 20px;
+}
+.dropdown ul li a:hover {
+  color: #89c544;
 }
