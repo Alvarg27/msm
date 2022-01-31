@@ -1,0 +1,30 @@
+.contact {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  height: 600px;
+  flex-direction: column;
+}
+.contact .container {
+  width: 700px;
+  position: relative;
+  margin: auto;
+}
+.contact img {
+  width: 100%;
+  margin: auto;
+  border-radius: 50px;
+}
+
+.contact .contactText {
+  position: absolute;
+  color: white;
+  top: 100px;
+  right: 100px;
+}
+
+.contact .copyright {
+  margin: 10px auto;
+  color: white;
+  font-size: 12px;
+}

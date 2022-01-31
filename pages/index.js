@@ -1,6 +1,7 @@
 import Head from "next/head";
 import Image from "next/image";
 import About from "../components/About";
+import Contact from "../components/Contact";
 import Header from "../components/header";
 import Hero from "../components/Hero";
 import Services from "../components/Services";
@@ -18,6 +19,7 @@ export default function Home() {
       <Hero />
       <About />
       <Services />
+      <Contact />
     </div>
   );
 }
