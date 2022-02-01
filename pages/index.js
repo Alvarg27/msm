@@ -18,7 +18,7 @@ export default function Home() {
 
   console.log(offsetY);
   return (
-    <div className={styles.home}>
+    <div lang="es" className={styles.home}>
       <Head>
         <title>MSM</title>
         <meta name="description" content="Circuitos y sistemas integtrados" />
