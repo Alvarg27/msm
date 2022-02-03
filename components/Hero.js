@@ -11,7 +11,7 @@ export default function Hero() {
               Empresa pionera en la distribución y maquila de chips
               semiconductores
             </p>
-            <h1>Diseño y fabricación de circuitos y sistemas integrados.</h1>
+            <h1>Diseño e implementación de circuitos y sistemas integrados.</h1>
             <button id="about" className="primaryBtn">
               Saber más
             </button>

@@ -13,7 +13,7 @@ export default function Services() {
               <li>Estados Unidos, reacciona para abastecer su mercado.</li>
               <li>México enfrenta crisis de desabasto.</li>
               <li>
-                Alianza CIDESI/KIKLOS ofrece una alternativa real, confiable e
+                Alianza CIDESI/MSM ofrece una alternativa real, confiable e
                 inmediata.
               </li>
               <li>Cubrimos tecnologías CMOS y NMOS</li>
