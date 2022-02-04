@@ -22,7 +22,7 @@ export default function Home() {
       <Head>
         <title>MSM</title>
         <meta name="description" content="Circuitos y sistemas integtrados" />
-        <link rel="icon" href="/msm_logo_circulo_degrado.webp" />
+        <link rel="shortcut icon" href="/msm_logo_circulo_degrado.webp" />
       </Head>
       <Header offsetY={offsetY} />
       <Hero />
