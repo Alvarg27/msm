@@ -7,10 +7,7 @@ export default function About() {
       <h1 className="title">Acerca de</h1>
       <div className={styles.textContainer}>
         <p>
-          Consolidar procesos de fabricación de circuitos integrados que de
-          soluciones de alto valor al sector académico e industrial a nivel
-          nacional con base en una plataforma tecnológica con procesos flexibles
-          y enfocados al cliente.
+        Implementación procesos de circuitos integrados de alto valor al sector, industrial, a nivel Internacional, con base en una plataforma tecnológica de implementación única y enfocados al cliente.
         </p>
       </div>
       <div className={styles.container}>
